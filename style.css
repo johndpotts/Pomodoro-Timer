@@ -1,0 +1,27 @@
+
+body{
+  background-color: gray;
+
+}
+button{
+  padding: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight:bold;
+  color:white;
+  border-width: 10px;
+  outline-color: white;
+  background-color: blue;
+}
+.display{
+  background-color: black;
+  font-family: sans-serif;
+  font-weight:bold;
+  height: 60px;
+  width:240px;
+  color: green;
+font-size:55px;
+}
+
+#hours{float:left;}
+#minutes{float:left}
