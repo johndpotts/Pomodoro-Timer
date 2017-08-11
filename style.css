@@ -2,25 +2,17 @@
 body{
   background-color: gray;
   padding-top: 100px;
-
-
 }
 
 .center{
-margin:auto;
 max-width:70%;
-text-align:center;
-
 }
 .display{
   background-color: black;
   font-family: sans-serif;
   font-weight:bold;
-  height: 60px;
+  height: 80px;
   width:240px;
   color: green;
 font-size:55px;
 }
-
-#hours{float:left;}
-#minutes{float:left}

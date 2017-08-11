@@ -21,7 +21,8 @@ resetButton.onclick=function() {
     clearInterval(timer);
     timer=null;
     secondsLabel.innerHTML="00";
-    minutesLabel.innerHTML="00:";
+    minutesLabel.innerHTML="25:";
+
   };
 function setTime(){
   totalSeconds++;
