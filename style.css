@@ -1,17 +1,16 @@
 
 body{
   background-color: gray;
+  padding-top: 100px;
+
 
 }
-button{
-  padding: 15px;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight:bold;
-  color:white;
-  border-width: 10px;
-  outline-color: white;
-  background-color: blue;
+
+.center{
+margin:auto;
+max-width:70%;
+text-align:center;
+
 }
 .display{
   background-color: black;

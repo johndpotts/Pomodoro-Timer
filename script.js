@@ -22,12 +22,11 @@ resetButton.onclick=function() {
     timer=null;
     secondsLabel.innerHTML="00";
     minutesLabel.innerHTML="00:";
-    hoursLabel.innerHTML="00:";
   };
 function setTime(){
   totalSeconds++;
-  secondsLabel.innerHTML=pad(totalSeconds % 60);
-  minutesLabel.innerHTML=pad(parseInt(totalSeconds/60))+":";
+  secondsLabel.innerHTML=pad(60-(totalSeconds % 60));
+  minutesLabel.innerHTML=pad(parseInt(25-(totalSeconds/60)))+":";
   hoursLabel.innerHTML=pad(parseInt(totalSeconds/3600))+":";
 }
 function pad(val) {
