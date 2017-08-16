@@ -1,28 +1,42 @@
 <!doctype=html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>John's Pomodoro Clock</title>
-  <link rel="stylesheet" href="style.css" />
   <script type="text/javascript" src="script.js" async></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="style.css" />
 </head>
+
 <body>
 
 
-<div class="container-fluid center">
-    <div >
-      <button  id="start" class="btn btn-large">Start</button>
-    <button id="pause" class="btn btn-large">Pause</button>
-    <button id="reset" class="btn btn-large">Reset</button>
+  <div class="display">
+    <span id="minutes">00:</span><span id="seconds">00</span>
   </div>
-        <div class="display">
-            <span id="minutes">25:</span><span id="seconds">00</span>
-        </div>
-</div>
+  <div class="center">
+    <div class="top-buttons">
+      <button id="startWork" class="round-button"> Work</button>
+      <button id="pause" class="round-button">Pause</button>
+      <button id="reset" class="round-button">Reset</button>
+      <button id="startBreak" class="round-button"> Break </br/></button>
+
+    <div class="bottom-buttons-first-row">
+    <span>Work</span> <span>Break</span>
+  </div>
+<div class="bottom-buttons">
+      <button id="addWork" class="round-button-small">+</button>
+      <button id="addBreak" class="round-button-small">+</button>
+    </div>
+<div class="bottom-text">
+    <span class="time-sets" id="workTime">25</span><span class="time-sets" id="breakTime">5</span>
+    </div>
+    <div class="bottom-buttons">
+      <button id="subtractWork" class="round-button-small">-</button>
+      <button id="subtractBreak" class="round-button-small">-</button>
+    </div>
+  </div>
 </body>
+
 </html>
 <script type="text/javascript" src="script.js" async></script>

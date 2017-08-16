@@ -1,18 +1,87 @@
 
 body{
-  background-color: gray;
+  background-image: url("board.jpg");
+  background-size:cover;
   padding-top: 100px;
+
 }
+
 
 .center{
 max-width:70%;
+background-color: #8d5e4e;
+font-family: sans-serif;
+margin:auto;
+border-radius:5px;
+border-style:ridge;
+border-color:#555
+
 }
 .display{
-  background-color: black;
+  text-align: center;
+  text-shadow: 1px 1px #FFFFFF;
+margin: auto;
+line-height: 320px;
+  background-image: url("tomato.png");
+  background-size: 400px 350px;
+  background-position: -30px -30px;
   font-family: sans-serif;
   font-weight:bold;
-  height: 80px;
-  width:240px;
-  color: green;
+  height: 300px;
+  width:300px;
+  color: #444;
+  border-radius: 50%;
 font-size:55px;
+}
+.round-button{
+  margin-top:8px;
+  cursor:pointer;
+  height:65px;
+  width:65px;
+    font-size: 15px;
+border-radius:50%;
+font-weight: bold;
+text-align:center;
+font-family:sans-serif;
+border-color:#555;
+border-style: solid;
+}
+.round-button-small{
+    cursor:pointer;
+    height:35px;
+  width:35px;
+border-radius:50%;
+font-weight: bold;
+text-align:center;
+font-family:sans-serif;
+margin-left:5px;
+margin-right: 5px;
+border-color:#555;
+border-style: solid;
+}
+
+
+.top-buttons{
+    text-align: center;
+  }
+
+.bottom-buttons-first-row{
+  margin-top:15px;
+  text-align:center;
+  font-weight: bold;
+  font-size:20px;
+}
+.bottom-text{
+  text-align:center;
+  font-weight:bolder;
+  font-size: 25px;
+}
+.time-sets{
+  margin-left:5px;
+margin-right:17px;
+}
+.bottom-buttons{
+  margin-top:2px;
+  text-align:center;
+  margin-bottom:8px;
 }
