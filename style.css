@@ -1,80 +1,92 @@
-
-body{
-  background: #9DEDB9; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #9DEDB9, #EEEEEE); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #9DEDB9, #EEEEEE); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #9DEDB9, #EEEEEE); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #9DEDB9, #EEEEEE); /* Standard syntax */
-  background-size:cover;
+body {
+  background: #9DEDB9;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #9DEDB9, #EEEEEE);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #9DEDB9, #EEEEEE);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #9DEDB9, #EEEEEE);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #9DEDB9, #EEEEEE);
+  /* Standard syntax */
+  background-size: cover;
   padding-top: 20px;
-  padding-bottom:20px;
-font-family: 'Open Sans Condensed', sans-serif;
-}
-h1{
-  font-family: 'Pacifico', cursive;
-  color:white;
-  text-shadow: 1px 1px #333333;
- text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.display{
-   text-shadow: 1px 1px #333333;
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-shadow: 1px 1px #333333;
   text-align: center;
-  color:#FFFFFF;
-margin: auto;
+}
+
+.display {
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
   background-color: #333;
   height: 300px;
-  width:300px;
+  width: 300px;
   border-radius: 50%;
-font-size:55px;
-position: relative;
+  font-size: 55px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.top-row{
-    cursor: pointer;
-    position: absolute;
-    top: 50px;
-    right: 60;
-    font-size:30px;
-}
-  .timer{
-    position: absolute;
-    top: 110px;
-    right: 100;
-  }
-  .bottom-row{  cursor: pointer;
-    position: absolute;
-    top: 200px;
-    right: 60;
-  font-size: 30px;}
 
-.plus-minus{
+.top-row {
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 30px;
+}
+
+.timer {
+  position: absolute;
+  top: 110px;
+  right: 100;
+}
+
+.bottom-row {
+  cursor: pointer;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  font-size: 30px;
+}
+
+.plus-minus {
   font-weight: bold;
+  font-family: sans-serif;
 }
 
-.round-button{
-  color:white;
-  margin-top:8px;
-  cursor:pointer;
-  height:65px;
-  width:65px;
-    font-size: 20px;
-background-color: #333333;
-border-radius:50%;
-font-weight: bold;
-text-align:center;
-border-style: none;
-font-family: 'Open Sans Condensed', sans-serif;
+.round-button {
+  color: white;
+  margin-top: 8px;
+  cursor: pointer;
+  height: 65px;
+  width: 65px;
+  font-size: 20px;
+  background-color: #333333;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  border-style: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.bottom-buttons{
+.bottom-buttons {
   margin: auto;
   text-align: center;
 }
 
-footer{
-  text-align:center;
-  color: #333;
-  font-size:30px;
-  text-shadow: 1px 1px #333333;
-  margin-top: 60px;
+footer {
+  text-align: center;
+  color: #FFF;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px #000000;
+  margin-top: 40px;
 }
