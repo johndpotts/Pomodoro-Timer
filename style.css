@@ -1,14 +1,13 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 body {
   background: #9DEDB9;
-  /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #9DEDB9, #EEEEEE);
-  /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #9DEDB9, #EEEEEE);
-  /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #9DEDB9, #EEEEEE);
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #9DEDB9, #EEEEEE);
-  /* Standard syntax */
   background-size: cover;
   padding-top: 20px;
   padding-bottom: 20px;
