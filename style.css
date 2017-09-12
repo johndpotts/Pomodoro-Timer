@@ -1,104 +1,80 @@
 
 body{
-  background-image: url("http://res.cloudinary.com/dnyy6kcjj/image/upload/v1502989869/board_b3ghor.jpg");
+  background: #9DEDB9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #9DEDB9, #EEEEEE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #9DEDB9, #EEEEEE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #9DEDB9, #EEEEEE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #9DEDB9, #EEEEEE); /* Standard syntax */
   background-size:cover;
-  padding-top: 100px;
-  padding-bottom:100px;
+  padding-top: 20px;
+  padding-bottom:20px;
 font-family: 'Open Sans Condensed', sans-serif;
 }
-
-.center{
-max-width:350px;
-
-margin:auto;
- color:white;
-
+h1{
+  font-family: 'Pacifico', cursive;
+  color:white;
+  text-shadow: 1px 1px #333333;
+ text-align: center;
 }
+
 .display{
    text-shadow: 1px 1px #333333;
   text-align: center;
   color:#FFFFFF;
-  text-shadow: 1px 1px #333333;
 margin: auto;
-line-height: 320px;
-  background-image: url("http://res.cloudinary.com/dnyy6kcjj/image/upload/v1502989864/tomato_mjmmrp.png");
-  background-size: 400px 350px;
-  background-position: -30px -30px;
-  font-family: sans-serif;
-  font-weight:bold;
+  background-color: #333;
   height: 300px;
   width:300px;
   border-radius: 50%;
 font-size:55px;
+position: relative;
 }
+.top-row{
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 60;
+    font-size:30px;
+}
+  .timer{
+    position: absolute;
+    top: 110px;
+    right: 100;
+  }
+  .bottom-row{  cursor: pointer;
+    position: absolute;
+    top: 200px;
+    right: 60;
+  font-size: 30px;}
+
+.plus-minus{
+  font-weight: bold;
+}
+
 .round-button{
   color:white;
   margin-top:8px;
   cursor:pointer;
   height:65px;
   width:65px;
-    font-size: 15px;
-  background-image: url("button.png");
-  background-size:cover;
+    font-size: 20px;
+background-color: #333333;
 border-radius:50%;
 font-weight: bold;
 text-align:center;
-font-family:sans-serif;
-border-color:#555;
-border-style: solid;
-}
-.round-button-small{
-     color:white;
-  cursor:pointer;
-    height:35px;
-  width:35px;
-border-radius:50%;
-font-weight: bold;
-text-align:center;
-font-family:sans-serif;
-margin-left:5px;
-margin-right: 5px;
-border-color:#555;
-border-style: solid;
+border-style: none;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 
-
-.top-buttons{
-    text-align: center;
-  }
-
-.bottom-buttons-first-row{
-  color:white;
-  margin-top:15px;
-  text-align:center;
-  font-weight: bold;
-  font-size:20px;
-   text-shadow: 1px 1px #333333;
-}
-.bottom-text{
-  text-align:center;
-  font-weight:bolder;
-  font-size: 25px;
-   text-shadow: 1px 1px #333333;
-}
-.time-sets{
-   color:white;
-  margin-left:5px;
-margin-right:17px;
-   text-shadow: 1px 1px #333333;
-}
 .bottom-buttons{
-  margin-top:2px;
-  text-align:center;
-  margin-bottom:8px;
+  margin: auto;
+  text-align: center;
 }
 
 footer{
-
   text-align:center;
-  color: #FFF;
-    font-family:sans-serif;
-  font-weight:bold;
-  font-size:20px;
+  color: #333;
+  font-size:30px;
   text-shadow: 1px 1px #333333;
+  margin-top: 60px;
 }

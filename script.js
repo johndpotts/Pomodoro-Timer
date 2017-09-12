@@ -13,7 +13,9 @@ var secondsLabel = document.getElementById('seconds'),
   subtractBreakButton = document.getElementById('subtractBreak'),
   timer = null,
   workTime=25,
-  breakTime=5;
+  breakTime=5,
+  tic = new Audio('tic.mp3'),
+alarm = new Audio('alarm.mp3');
 
 addWorkButton.onclick = function() {
   workTime+=1; workTimeLabel.innerHTML = workTime;
@@ -59,6 +61,7 @@ resetButton.onclick=function(){
 function setWorkTime() {
 var timerOne;
   totalSeconds++;
+  tic.play()
   if (totalSeconds % 60 === 0){timerOne = pad(0)}
   else{timerOne= pad(60 - (totalSeconds % 60));};
   var timerTwo= pad(parseInt(workTime - (totalSeconds / 60)));
@@ -71,7 +74,7 @@ var timerOne;
     timer = null;
     secondsLabel.innerHTML = "00";
     minutesLabel.innerHTML = "00:";
-    //play audio
+    alarm.play();
   }
 
 }
@@ -79,10 +82,10 @@ var timerOne;
 function setBreakTime() {
   var timerOne;
     totalSeconds++;
+    tic.play();
     if (totalSeconds % 60 === 0){timerOne = pad(0)}
     else{timerOne= pad(60 - (totalSeconds % 60));};
     var timerTwo= pad(parseInt(breakTime - (totalSeconds / 60)));
-
     secondsLabel.innerHTML = timerOne;
     minutesLabel.innerHTML = timerTwo + ":";
     if (timerOne=="00" && timerTwo == "00"){
@@ -91,7 +94,7 @@ function setBreakTime() {
       timer = null;
       secondsLabel.innerHTML = "00";
       minutesLabel.innerHTML = "00:";
-      //play audio
+      alarm.play();
     }
   }
 function pad(val) {
